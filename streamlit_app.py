@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import sys
 
 titles = ["Hello", "Hi", "Howdy"]
 icons = [":shark:", ":cat:", ":hamburger:", ":bomb:"]
@@ -15,5 +16,7 @@ st.beta_set_page_config(
 """
 
 x = st.slider("Foo", 0, 100)
-st.write("number", x)
+st.write("Selected:", x)
 
+print("Selected:", x)
+sys.stdout.flush()
