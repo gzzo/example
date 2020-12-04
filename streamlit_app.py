@@ -12,7 +12,7 @@ st.beta_set_page_config(
 
 
 """
-# Hello world!!!
+# Hello world!
 """
 
 x = st.slider("Foo", 0, 100)
